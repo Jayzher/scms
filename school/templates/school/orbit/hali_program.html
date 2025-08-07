@@ -1,0 +1,278 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}HALI Program - Holy Child Central Colleges{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <!-- Page Header -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-2">HALI Program</h1>
+        <div class="w-24 h-1 bg-blue-500 dark:bg-azure-500 mx-auto my-4"></div>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            Higher Academic Learning Innovation: Empowering students through innovative educational approaches and global perspectives.
+        </p>
+    </div>
+
+    <!-- Overview Section -->
+    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-12">
+        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">About HALI Program</h2>
+        <p class="text-gray-600 dark:text-gray-300 mb-6">
+            The Higher Academic Learning Innovation (HALI) Program at Holy Child Central Colleges is designed to provide students 
+            with advanced learning opportunities that go beyond traditional classroom education. Through innovative teaching methodologies, 
+            technology integration, and global partnerships, HALI aims to develop students' critical thinking, creativity, and problem-solving skills 
+            while preparing them for the challenges of the 21st century.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 dark:text-azure-400 mb-3">Our Mission</h3>
+                <p class="text-gray-600 dark:text-gray-300">
+                    To foster academic excellence through innovative learning approaches that empower students to become 
+                    lifelong learners, critical thinkers, and responsible global citizens.
+                </p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 dark:text-azure-400 mb-3">Our Vision</h3>
+                <p class="text-gray-600 dark:text-gray-300">
+                    To be a leading institution in innovative education that prepares students to excel in a rapidly changing 
+                    global environment and contribute meaningfully to society.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Key Features Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">Key Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Innovative Curriculum -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600 dark:text-azure-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Innovative Curriculum</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Our curriculum integrates advanced concepts, interdisciplinary approaches, and real-world applications to provide a comprehensive and relevant educational experience.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Project-based learning</li>
+                    <li>Interdisciplinary studies</li>
+                    <li>Advanced placement courses</li>
+                    <li>Research opportunities</li>
+                </ul>
+            </div>
+            
+            <!-- Technology Integration -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Technology Integration</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    We leverage cutting-edge technology to enhance learning experiences, develop digital literacy, and prepare students for the technology-driven future.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Digital learning platforms</li>
+                    <li>Virtual and augmented reality</li>
+                    <li>Coding and programming</li>
+                    <li>Educational software and tools</li>
+                </ul>
+            </div>
+            
+            <!-- Global Perspective -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Global Perspective</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    We foster a global mindset through international partnerships, cultural exchange programs, and a curriculum that emphasizes global awareness and understanding.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>International exchange programs</li>
+                    <li>Global issues integration</li>
+                    <li>Cultural competence development</li>
+                    <li>Foreign language proficiency</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Programs and Initiatives Section -->
+    <div class="mb-12 bg-gray-50 dark:bg-gray-900 rounded-lg p-8">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-6">Programs and Initiatives</h2>
+        <p class="text-gray-600 dark:text-gray-300 text-center max-w-3xl mx-auto mb-8">
+            The HALI Program offers various initiatives designed to enhance students' academic experience and foster innovation in learning.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Advanced Research Program -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600 dark:text-azure-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                    Advanced Research Program
+                </h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    A program that provides students with opportunities to engage in original research under the guidance of faculty mentors.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300 space-y-1">
+                    <li>Research methodology training</li>
+                    <li>Mentorship by faculty experts</li>
+                    <li>Access to research facilities and resources</li>
+                    <li>Opportunities to present at conferences</li>
+                    <li>Publication support</li>
+                </ul>
+            </div>
+            
+            <!-- Innovation Lab -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600 dark:text-azure-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                    </svg>
+                    Innovation Lab
+                </h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    A state-of-the-art facility where students can explore, experiment, and develop innovative solutions to real-world problems.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300 space-y-1">
+                    <li>Advanced technology and equipment</li>
+                    <li>Maker spaces and design studios</li>
+                    <li>Collaborative workspaces</li>
+                    <li>Innovation workshops and hackathons</li>
+                    <li>Entrepreneurship support</li>
+                </ul>
+            </div>
+            
+            <!-- Global Learning Initiative -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600 dark:text-azure-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Global Learning Initiative
+                </h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    A program that connects students with international peers, institutions, and experiences to develop global competence and cross-cultural understanding.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300 space-y-1">
+                    <li>International student exchange</li>
+                    <li>Virtual global classrooms</li>
+                    <li>Cross-cultural projects</li>
+                    <li>Global issues seminars</li>
+                    <li>International guest speakers</li>
+                </ul>
+            </div>
+            
+            <!-- Leadership Development Program -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600 dark:text-azure-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                    Leadership Development Program
+                </h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    A comprehensive program designed to develop students' leadership skills, ethical decision-making, and capacity to drive positive change.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300 space-y-1">
+                    <li>Leadership workshops and seminars</li>
+                    <li>Mentoring and coaching</li>
+                    <li>Community service projects</li>
+                    <li>Leadership retreats</li>
+                    <li>Student-led initiatives</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Student Testimonials Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">Student Testimonials</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Testimonial 1 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-gray-300 dark:bg-gray-600 rounded-full mr-4"></div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Maria Santos</h3>
+                        <p class="text-gray-500 dark:text-gray-400 text-sm">Senior High School, STEM</p>
+                    </div>
+                </div>
+                <p class="text-gray-600 dark:text-gray-300 italic">
+                    "The HALI Program has transformed my learning experience. Through the Advanced Research Program, 
+                    I was able to conduct my own research on renewable energy, which won first place in the National Science Fair. 
+                    The mentorship and resources provided were invaluable."
+                </p>
+            </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-gray-300 dark:bg-gray-600 rounded-full mr-4"></div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white">John Reyes</h3>
+                        <p class="text-gray-500 dark:text-gray-400 text-sm">College, Computer Science</p>
+                    </div>
+                </div>
+                <p class="text-gray-600 dark:text-gray-300 italic">
+                    "The Innovation Lab gave me the opportunity to develop my tech startup idea from concept to prototype. 
+                    The guidance from faculty mentors and access to cutting-edge technology helped me turn my vision into reality. 
+                    I'm now preparing to launch my app after graduation."
+                </p>
+            </div>
+            
+            <!-- Testimonial 3 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-gray-300 dark:bg-gray-600 rounded-full mr-4"></div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Ana Cruz</h3>
+                        <p class="text-gray-500 dark:text-gray-400 text-sm">College, International Studies</p>
+                    </div>
+                </div>
+                <p class="text-gray-600 dark:text-gray-300 italic">
+                    "Participating in the Global Learning Initiative allowed me to study abroad for a semester in Japan. 
+                    This experience broadened my perspective, improved my language skills, and helped me build an international 
+                    network. It was truly a life-changing opportunity."
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- How to Apply Section -->
+    <div class="bg-blue-600 dark:bg-azure-600 text-white rounded-lg shadow-lg p-8">
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-2/3 mb-6 md:mb-0 md:pr-8">
+                <h2 class="text-3xl font-bold mb-4">Join the HALI Program</h2>
+                <p class="text-lg mb-6">
+                    Are you ready to take your academic journey to the next level? The HALI Program is open to motivated students 
+                    who demonstrate academic excellence, creativity, and a passion for learning.
+                </p>
+                <h3 class="text-xl font-semibold mb-3">Application Process:</h3>
+                <ol class="list-decimal pl-5 space-y-2">
+                    <li>Complete the HALI Program application form</li>
+                    <li>Submit academic records and portfolio</li>
+                    <li>Write a personal statement</li>
+                    <li>Participate in an interview</li>
+                    <li>Receive admission decision</li>
+                </ol>
+            </div>
+            <div class="md:w-1/3 flex justify-center items-center">
+                <a href="#" class="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium transition duration-300">
+                    Apply Now
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

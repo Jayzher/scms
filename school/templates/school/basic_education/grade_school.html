@@ -1,0 +1,176 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Grade School - Holy Child Central Colleges{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <!-- Page Header -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-2">Grade School Program</h1>
+        <div class="w-24 h-1 bg-blue-500 dark:bg-azure-500 mx-auto my-4"></div>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            Providing a strong foundation for young learners through a holistic and child-centered approach to education.
+        </p>
+    </div>
+
+    <!-- Overview Section -->
+    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-12">
+        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Program Overview</h2>
+        <p class="text-gray-600 dark:text-gray-300 mb-6">
+            Our Grade School program is designed to nurture young minds and develop essential skills in a supportive and engaging environment. 
+            We focus on building a strong foundation in core subjects while encouraging creativity, critical thinking, and character development.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 dark:text-azure-400 mb-3">Our Approach</h3>
+                <ul class="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
+                    <li>Child-centered learning methodology</li>
+                    <li>Integration of technology in classroom instruction</li>
+                    <li>Values-oriented formation</li>
+                    <li>Holistic development of students</li>
+                    <li>Regular parent-teacher collaboration</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 dark:text-azure-400 mb-3">Key Features</h3>
+                <ul class="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
+                    <li>Low student-to-teacher ratio</li>
+                    <li>Modern facilities and learning resources</li>
+                    <li>Comprehensive curriculum aligned with national standards</li>
+                    <li>Regular field trips and experiential learning</li>
+                    <li>Dedicated guidance counseling services</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Curriculum Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">Our Curriculum</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Core Subjects -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600 dark:text-azure-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Core Subjects</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Comprehensive instruction in fundamental subjects that build strong academic foundations.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Mathematics</li>
+                    <li>Science</li>
+                    <li>English</li>
+                    <li>Filipino</li>
+                    <li>Social Studies</li>
+                </ul>
+            </div>
+            
+            <!-- Enrichment Programs -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Enrichment Programs</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Additional learning opportunities that enhance creativity and critical thinking.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Computer Education</li>
+                    <li>Arts and Music</li>
+                    <li>Physical Education</li>
+                    <li>Reading Enhancement</li>
+                    <li>Research Skills</li>
+                </ul>
+            </div>
+            
+            <!-- Character Formation -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Character Formation</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Programs designed to develop values, ethics, and positive character traits.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Values Education</li>
+                    <li>Leadership Training</li>
+                    <li>Community Service</li>
+                    <li>Spiritual Formation</li>
+                    <li>Social Skills Development</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Facilities Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">Our Facilities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <div class="h-48 bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Modern Classrooms</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Spacious, well-ventilated classrooms equipped with modern teaching aids and technology to enhance the learning experience.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <div class="h-48 bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                    </svg>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Computer Laboratory</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        State-of-the-art computer lab with the latest hardware and software to develop digital literacy from an early age.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <div class="h-48 bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Library and Resource Center</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Comprehensive collection of books, educational materials, and multimedia resources to support research and reading habits.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="bg-blue-600 dark:bg-azure-600 text-white rounded-lg shadow-lg p-8 text-center">
+        <h2 class="text-3xl font-bold mb-4">Ready to Enroll Your Child?</h2>
+        <p class="text-lg mb-6 max-w-2xl mx-auto">
+            Give your child the gift of quality education in a nurturing environment. Our admissions team is ready to assist you with the enrollment process.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <a href="{% url 'admission_process' %}" class="inline-block bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium transition duration-300">
+                Learn About Admission
+            </a>
+            <a href="#" class="inline-block bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+                Contact Us
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

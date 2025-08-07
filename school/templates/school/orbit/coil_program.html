@@ -1,0 +1,327 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}COIL Program - Holy Child Central Colleges{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <!-- Page Header -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-2">COIL Program</h1>
+        <div class="w-24 h-1 bg-blue-500 dark:bg-azure-500 mx-auto my-4"></div>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            Collaborative Online International Learning: Connecting students globally through virtual exchange and cross-cultural collaboration.
+        </p>
+    </div>
+
+    <!-- Overview Section -->
+    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-12">
+        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">About COIL Program</h2>
+        <p class="text-gray-600 dark:text-gray-300 mb-6">
+            The Collaborative Online International Learning (COIL) Program at Holy Child Central Colleges is an innovative 
+            educational approach that connects students and faculty from different countries through technology-enabled learning. 
+            COIL integrates global perspectives into the curriculum, allowing students to engage in meaningful cross-cultural 
+            collaboration without the need for physical travel.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 dark:text-azure-400 mb-3">Our Approach</h3>
+                <p class="text-gray-600 dark:text-gray-300">
+                    COIL courses are developed collaboratively by faculty from HCCC and partner institutions abroad. 
+                    Students work together on shared projects, discussions, and assignments using various digital tools 
+                    and platforms, creating a virtual mobility experience that enhances intercultural competence and global awareness.
+                </p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 dark:text-azure-400 mb-3">Benefits</h3>
+                <ul class="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
+                    <li>Develop intercultural communication skills</li>
+                    <li>Gain global perspectives on academic subjects</li>
+                    <li>Build international networks</li>
+                    <li>Enhance digital literacy</li>
+                    <li>Prepare for global workforce participation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- How COIL Works Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">How COIL Works</h2>
+        
+        <div class="relative">
+            <!-- Timeline Line -->
+            <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-200 dark:bg-blue-900"></div>
+            
+            <!-- Step 1 -->
+            <div class="relative mb-12">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8 md:text-right">
+                        <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-2">Course Development</h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            Faculty from HCCC and partner institutions collaboratively design course modules with shared learning objectives and activities.
+                        </p>
+                    </div>
+                    <div class="md:w-12 md:mx-auto relative">
+                        <div class="h-12 w-12 rounded-full bg-blue-500 dark:bg-azure-500 flex items-center justify-center text-white font-bold text-lg z-10 relative">1</div>
+                    </div>
+                    <div class="md:w-1/2 md:pl-8">
+                        <h4 class="text-lg font-medium text-blue-600 dark:text-azure-400 mb-2">Key Elements</h4>
+                        <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                            <li>Aligned curriculum goals</li>
+                            <li>Collaborative teaching approaches</li>
+                            <li>Technology integration planning</li>
+                            <li>Assessment strategies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Step 2 -->
+            <div class="relative mb-12">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8 md:text-right order-1 md:order-1">
+                        <h4 class="text-lg font-medium text-blue-600 dark:text-azure-400 mb-2">Activities Include</h4>
+                        <ul class="list-disc pl-5 md:pl-0 md:list-inside text-gray-600 dark:text-gray-300">
+                            <li>Virtual introductions</li>
+                            <li>Cultural exchange activities</li>
+                            <li>Team formation</li>
+                            <li>Project briefing</li>
+                        </ul>
+                    </div>
+                    <div class="md:w-12 md:mx-auto relative order-first md:order-2">
+                        <div class="h-12 w-12 rounded-full bg-blue-500 dark:bg-azure-500 flex items-center justify-center text-white font-bold text-lg z-10 relative">2</div>
+                    </div>
+                    <div class="md:w-1/2 md:pl-8 order-2 md:order-3">
+                        <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-2">Student Orientation</h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            Students are introduced to the COIL methodology, their international peers, and the digital platforms they will use for collaboration.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Step 3 -->
+            <div class="relative mb-12">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8 md:text-right">
+                        <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-2">Collaborative Learning</h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            Students engage in joint activities, discussions, and projects with their international counterparts using various digital tools.
+                        </p>
+                    </div>
+                    <div class="md:w-12 md:mx-auto relative">
+                        <div class="h-12 w-12 rounded-full bg-blue-500 dark:bg-azure-500 flex items-center justify-center text-white font-bold text-lg z-10 relative">3</div>
+                    </div>
+                    <div class="md:w-1/2 md:pl-8">
+                        <h4 class="text-lg font-medium text-blue-600 dark:text-azure-400 mb-2">Collaboration Tools</h4>
+                        <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                            <li>Video conferencing</li>
+                            <li>Collaborative documents</li>
+                            <li>Discussion forums</li>
+                            <li>Project management platforms</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Step 4 -->
+            <div class="relative">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8 md:text-right order-1 md:order-1">
+                        <h4 class="text-lg font-medium text-blue-600 dark:text-azure-400 mb-2">Outcomes</h4>
+                        <ul class="list-disc pl-5 md:pl-0 md:list-inside text-gray-600 dark:text-gray-300">
+                            <li>Project presentations</li>
+                            <li>Reflection papers</li>
+                            <li>Cultural competence assessment</li>
+                            <li>Digital portfolio development</li>
+                        </ul>
+                    </div>
+                    <div class="md:w-12 md:mx-auto relative order-first md:order-2">
+                        <div class="h-12 w-12 rounded-full bg-blue-500 dark:bg-azure-500 flex items-center justify-center text-white font-bold text-lg z-10 relative">4</div>
+                    </div>
+                    <div class="md:w-1/2 md:pl-8 order-2 md:order-3">
+                        <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-2">Assessment & Reflection</h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            Students complete assessments and reflect on their learning experiences, focusing on both academic content and intercultural competence development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured COIL Courses Section -->
+    <div class="mb-12 bg-gray-50 dark:bg-gray-900 rounded-lg p-8">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-6">Featured COIL Courses</h2>
+        <p class="text-gray-600 dark:text-gray-300 text-center max-w-3xl mx-auto mb-8">
+            Explore some of our innovative COIL courses that connect HCCC students with peers around the world.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Course 1 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Global Business Ethics</h3>
+                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-4">
+                    <span class="mr-4">Business Department</span>
+                    <span>Partner: University of Tokyo, Japan</span>
+                </div>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Students explore ethical challenges in international business through case studies and collaborative problem-solving with Japanese counterparts.
+                </p>
+                <div class="flex items-center text-sm text-blue-600 dark:text-azure-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span>8-week module</span>
+                </div>
+            </div>
+            
+            <!-- Course 2 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Cross-Cultural Psychology</h3>
+                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-4">
+                    <span class="mr-4">Psychology Department</span>
+                    <span>Partner: University of Barcelona, Spain</span>
+                </div>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Students conduct joint research on cultural influences on human behavior, comparing perspectives from Filipino and Spanish contexts.
+                </p>
+                <div class="flex items-center text-sm text-blue-600 dark:text-azure-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span>10-week module</span>
+                </div>
+            </div>
+            
+            <!-- Course 3 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Global Environmental Issues</h3>
+                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-4">
+                    <span class="mr-4">Environmental Science Department</span>
+                    <span>Partner: University of Melbourne, Australia</span>
+                </div>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Students collaborate on analyzing environmental challenges from different regional perspectives and developing sustainable solutions.
+                </p>
+                <div class="flex items-center text-sm text-blue-600 dark:text-azure-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span>12-week module</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Partner Institutions Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">Our Global Partners</h2>
+        
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Partner 1 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 text-center">
+                <div class="h-20 flex items-center justify-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">University of Tokyo</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm">Japan</p>
+            </div>
+            
+            <!-- Partner 2 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 text-center">
+                <div class="h-20 flex items-center justify-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">University of Barcelona</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm">Spain</p>
+            </div>
+            
+            <!-- Partner 3 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 text-center">
+                <div class="h-20 flex items-center justify-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">University of Melbourne</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm">Australia</p>
+            </div>
+            
+            <!-- Partner 4 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 text-center">
+                <div class="h-20 flex items-center justify-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Seoul National University</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm">South Korea</p>
+            </div>
+            
+            <!-- Partner 5 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 text-center">
+                <div class="h-20 flex items-center justify-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">University of California</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm">USA</p>
+            </div>
+            
+            <!-- Partner 6 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 text-center">
+                <div class="h-20 flex items-center justify-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">University of São Paulo</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm">Brazil</p>
+            </div>
+            
+            <!-- Partner 7 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 text-center">
+                <div class="h-20 flex items-center justify-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">University of Cape Town</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm">South Africa</p>
+            </div>
+            
+            <!-- Partner 8 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 text-center">
+                <div class="h-20 flex items-center justify-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">University of Delhi</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm">India</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Get Involved Section -->
+    <div class="bg-blue-600 dark:bg-azure-600 text-white rounded-lg shadow-lg p-8 text-center">
+        <h2 class="text-3xl font-bold mb-4">Get Involved with COIL</h2>
+        <p class="text-lg mb-6 max-w-2xl mx-auto">
+            Interested in participating in a COIL course or developing a new COIL partnership? Contact our COIL Program Coordinator for more information.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <a href="#" class="inline-block bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium transition duration-300">
+                Student Application
+            </a>
+            <a href="#" class="inline-block bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+                Faculty Resources
+            </a>
+        </div>
+        <div class="mt-8 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span>coil@hccc.edu.ph</span>
+            </div>
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <span>+63 938 491 0643 local 345</span>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

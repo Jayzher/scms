@@ -1,0 +1,8 @@
+/* Main CSS file for School CMS */
+
+/* Custom styles for home page */
+.transition-shadow {
+    transition: box-shadow 0.3s ease;
+}
+
+/* Additional custom styles can be added here */

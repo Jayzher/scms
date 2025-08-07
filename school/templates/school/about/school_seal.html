@@ -1,0 +1,295 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}School Seal - Holy Child Central Colleges{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <!-- Page Header -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-2">Our School Seal</h1>
+        <div class="w-24 h-1 bg-blue-500 dark:bg-azure-500 mx-auto my-4"></div>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            The official emblem of Holy Child Central Colleges and its symbolic significance.
+        </p>
+    </div>
+
+    <!-- School Seal Section -->
+    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden mb-12">
+        <div class="md:flex">
+            <div class="md:w-1/2 p-8 flex items-center justify-center">
+                <div class="max-w-sm">
+                    <img src="{% static 'images/school-seal.png' %}" alt="Holy Child Central Colleges School Seal" class="w-full max-w-xs mx-auto">
+                    <p class="text-sm text-gray-500 dark:text-gray-400 text-center mt-4 italic">
+                        The official seal of Holy Child Central Colleges
+                    </p>
+                </div>
+            </div>
+            <div class="md:w-1/2 p-8 bg-gray-50 dark:bg-gray-700">
+                <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">About Our Seal</h2>
+                <div class="w-16 h-1 bg-blue-500 dark:bg-azure-500 mb-6"></div>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    The official seal of Holy Child Central Colleges represents our institution's identity, values, and aspirations. Designed with careful consideration of our heritage and mission, the seal serves as a visual embodiment of what we stand for as an educational institution.
+                </p>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    The seal is used on official documents, diplomas, certificates, and other formal communications of the institution. It symbolizes the authority and credibility of Holy Child Central Colleges and is a source of pride for our entire academic community.
+                </p>
+                <p class="text-gray-600 dark:text-gray-300">
+                    Each element of the seal has been thoughtfully incorporated to represent different aspects of our educational philosophy and institutional values, as detailed below.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seal Elements Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-bold text-center text-gray-800 dark:text-white mb-2">Elements of the Seal</h2>
+        <div class="w-24 h-1 bg-blue-500 dark:bg-azure-500 mx-auto mb-8"></div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Element 1 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 dark:bg-blue-900/30 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">The Circle</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 ml-16">
+                        The circular shape of the seal represents wholeness, unity, and the continuous cycle of learning and growth. It symbolizes our commitment to providing a well-rounded education that encompasses all aspects of human development.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Element 2 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 dark:bg-blue-900/30 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">The Open Book</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 ml-16">
+                        At the center of our seal is an open book, representing knowledge, learning, and academic excellence. The open pages symbolize our commitment to education and the pursuit of truth through study and research.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Element 3 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 dark:bg-blue-900/30 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">The Torch</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 ml-16">
+                        The torch in our seal represents enlightenment, guidance, and the illuminating power of education. It symbolizes our role in lighting the path for students as they journey through life, providing them with the knowledge and values that will guide them.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Element 4 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 dark:bg-blue-900/30 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">The Stars</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 ml-16">
+                        The stars in our seal represent excellence, aspiration, and the limitless potential of our students. They symbolize our commitment to helping students reach for the stars and achieve their highest potential in all their endeavors.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Element 5 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 dark:bg-blue-900/30 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">The Globe</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 ml-16">
+                        The globe element in our seal represents our global perspective and commitment to preparing students for success in an increasingly interconnected world. It symbolizes our vision of producing graduates who are globally competitive and culturally sensitive.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Element 6 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 dark:bg-blue-900/30 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">The Shield</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 ml-16">
+                        The shield in our seal represents protection, strength, and honor. It symbolizes our commitment to upholding the highest standards of integrity and our role in safeguarding the values and traditions that define our institution.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Colors and Motto Section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <!-- Colors Section -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">Colors of the Seal</h2>
+            <div class="w-16 h-1 bg-blue-500 dark:bg-azure-500 mb-6"></div>
+            
+            <div class="space-y-4">
+                <div class="flex items-center">
+                    <div class="w-12 h-12 rounded-full bg-blue-600 mr-4"></div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 dark:text-white">Blue</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Represents knowledge, integrity, and stability</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center">
+                    <div class="w-12 h-12 rounded-full bg-yellow-500 mr-4"></div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 dark:text-white">Gold</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Symbolizes excellence, achievement, and wisdom</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center">
+                    <div class="w-12 h-12 rounded-full bg-white border border-gray-300 dark:border-gray-600 mr-4"></div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 dark:text-white">White</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Represents purity, clarity, and truth</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center">
+                    <div class="w-12 h-12 rounded-full bg-green-600 mr-4"></div>
+                    <div>
+                        <h3 class="font-bold text-gray-800 dark:text-white">Green</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Symbolizes growth, hope, and renewal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Motto Section -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">Our Motto</h2>
+            <div class="w-16 h-1 bg-blue-500 dark:bg-azure-500 mb-6"></div>
+            
+            <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg mb-6">
+                <p class="text-xl italic text-center text-gray-800 dark:text-white font-serif">
+                    "He's Leader Tomorrow, Walk with Us Today"
+                </p>
+            </div>
+            
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+                Our motto encapsulates the essence of our educational mission at Holy Child Central Colleges. It reflects our commitment to developing future leaders through quality education and holistic formation.
+            </p>
+            
+            <p class="text-gray-600 dark:text-gray-300">
+                The phrase "He's Leader Tomorrow" emphasizes our focus on leadership development and preparing students for future roles of responsibility. "Walk with Us Today" invites students to join our educational journey, highlighting the collaborative nature of the learning process and our supportive community.
+            </p>
+        </div>
+    </div>
+    
+    <!-- Usage Guidelines Section -->
+    <div class="bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-center text-gray-800 dark:text-white mb-2">Usage Guidelines</h2>
+        <div class="w-24 h-1 bg-blue-500 dark:bg-azure-500 mx-auto mb-8"></div>
+        
+        <div class="space-y-6">
+            <p class="text-gray-600 dark:text-gray-300 text-center max-w-3xl mx-auto mb-8">
+                The school seal is an important symbol of our institution and should be used with respect and in accordance with the following guidelines:
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">Authorized Use</h3>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>Official school documents and publications</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>Diplomas, certificates, and awards</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>School website and official social media accounts</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>Official school merchandise and promotional materials</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">Unauthorized Use</h3>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                            <span>Alteration of the seal's design, colors, or proportions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                            <span>Use in a way that implies endorsement of products or services not affiliated with the school</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                            <span>Use in contexts that could damage the reputation of the institution</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                            <span>Commercial use without explicit permission from the administration</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p class="text-gray-600 dark:text-gray-300 text-center max-w-3xl mx-auto mt-6">
+                For inquiries regarding the use of the school seal, please contact the Office of the President or the Public Relations Office.
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}

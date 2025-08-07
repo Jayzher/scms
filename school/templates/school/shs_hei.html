@@ -1,0 +1,308 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}SHS-HEI Program - Holy Child Central Colleges{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <!-- Page Header -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-2">SHS-HEI Program</h1>
+        <div class="w-24 h-1 bg-blue-500 dark:bg-azure-500 mx-auto my-4"></div>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            Senior High School to Higher Education Institution Transition Program: Bridging the gap between secondary and tertiary education.
+        </p>
+    </div>
+
+    <!-- Overview Section -->
+    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-12">
+        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">About SHS-HEI Program</h2>
+        <p class="text-gray-600 dark:text-gray-300 mb-6">
+            The SHS-HEI Program at Holy Child Central Colleges is designed to facilitate a seamless transition from Senior High School to Higher Education. 
+            This innovative program bridges the gap between secondary and tertiary education, ensuring students are well-prepared for the academic 
+            rigor and expectations of college life.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 dark:text-azure-400 mb-3">Program Goals</h3>
+                <ul class="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
+                    <li>Prepare SHS students for the academic demands of college</li>
+                    <li>Develop essential skills for higher education success</li>
+                    <li>Provide early exposure to college-level coursework</li>
+                    <li>Facilitate informed decisions about college majors</li>
+                    <li>Create a supportive transition environment</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 dark:text-azure-400 mb-3">Program Benefits</h3>
+                <ul class="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
+                    <li>Advanced standing in college programs</li>
+                    <li>Reduced college completion time</li>
+                    <li>Potential tuition savings</li>
+                    <li>Enhanced college readiness</li>
+                    <li>Early access to college resources and facilities</li>
+                    <li>Mentorship from college faculty</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Program Components Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">Program Components</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Component 1 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600 dark:text-azure-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Advanced Placement Courses</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    College-level courses offered to qualified SHS students that can earn them college credits while still in high school.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Mathematics</li>
+                    <li>English Composition</li>
+                    <li>Introduction to Programming</li>
+                    <li>General Psychology</li>
+                    <li>Basic Economics</li>
+                </ul>
+            </div>
+            
+            <!-- Component 2 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">College Mentorship Program</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Pairs SHS students with college faculty and upperclassmen who provide guidance, support, and insights into college life.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>One-on-one mentoring sessions</li>
+                    <li>Academic advising</li>
+                    <li>Career exploration</li>
+                    <li>College application support</li>
+                    <li>Study skills development</li>
+                </ul>
+            </div>
+            
+            <!-- Component 3 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Campus Integration Activities</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Provides SHS students with opportunities to participate in college activities and utilize campus resources.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Library access</li>
+                    <li>Laboratory use</li>
+                    <li>College events participation</li>
+                    <li>Student organization involvement</li>
+                    <li>Campus tours and orientations</li>
+                </ul>
+            </div>
+            
+            <!-- Component 4 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-red-100 dark:bg-red-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600 dark:text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Academic Skills Workshops</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Specialized workshops designed to develop the academic skills necessary for college success.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Research methods</li>
+                    <li>Critical thinking</li>
+                    <li>Academic writing</li>
+                    <li>Time management</li>
+                    <li>Test-taking strategies</li>
+                </ul>
+            </div>
+            
+            <!-- Component 5 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600 dark:text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Career Exploration Program</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Helps students explore potential career paths and align their college major choices with their career goals.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Career assessment tools</li>
+                    <li>Industry exposure visits</li>
+                    <li>Professional guest speakers</li>
+                    <li>Job shadowing opportunities</li>
+                    <li>Career planning workshops</li>
+                </ul>
+            </div>
+            
+            <!-- Component 6 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                <div class="w-12 h-12 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">College Transition Support</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    Comprehensive support services to help students navigate the transition from high school to college.
+                </p>
+                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>College application assistance</li>
+                    <li>Financial aid guidance</li>
+                    <li>Scholarship information</li>
+                    <li>Enrollment support</li>
+                    <li>First-year adjustment counseling</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Eligibility and Application Section -->
+    <div class="mb-12 bg-gray-50 dark:bg-gray-900 rounded-lg p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Eligibility -->
+            <div>
+                <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-6">Eligibility</h2>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    The SHS-HEI Program is open to qualified Senior High School students who meet the following criteria:
+                </p>
+                <ul class="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
+                    <li>Currently enrolled in Grades 11 or 12 at Holy Child Central Colleges or partner schools</li>
+                    <li>Maintaining a minimum GPA of 85% or its equivalent</li>
+                    <li>Recommendation from SHS teachers or guidance counselors</li>
+                    <li>Demonstrated interest in pursuing higher education</li>
+                    <li>Parental/guardian consent for program participation</li>
+                </ul>
+            </div>
+            
+            <!-- Application Process -->
+            <div>
+                <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-6">Application Process</h2>
+                <ol class="list-decimal pl-5 space-y-3 text-gray-600 dark:text-gray-300">
+                    <li>
+                        <span class="font-medium">Submit Application Form</span>
+                        <p class="mt-1">Complete the online SHS-HEI Program application form available on the school website.</p>
+                    </li>
+                    <li>
+                        <span class="font-medium">Provide Academic Records</span>
+                        <p class="mt-1">Submit your most recent report card and other relevant academic documents.</p>
+                    </li>
+                    <li>
+                        <span class="font-medium">Teacher Recommendations</span>
+                        <p class="mt-1">Request recommendations from two current teachers or counselors.</p>
+                    </li>
+                    <li>
+                        <span class="font-medium">Personal Statement</span>
+                        <p class="mt-1">Write a 500-word essay explaining your interest in the program and your educational goals.</p>
+                    </li>
+                    <li>
+                        <span class="font-medium">Interview</span>
+                        <p class="mt-1">Qualified applicants will be invited for an interview with program coordinators.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Stories Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">Success Stories</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Story 1 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 flex flex-col md:flex-row">
+                <div class="md:w-1/3 mb-4 md:mb-0 md:mr-6 flex justify-center">
+                    <div class="w-24 h-24 bg-gray-300 dark:bg-gray-600 rounded-full"></div>
+                </div>
+                <div class="md:w-2/3">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Miguel Reyes</h3>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm mb-3">SHS-HEI Program 2023, Now studying BS Computer Science</p>
+                    <p class="text-gray-600 dark:text-gray-300 italic">
+                        "The SHS-HEI Program gave me a head start in my college journey. I earned 12 college credits while still in SHS, 
+                        which allowed me to take advanced courses in my first year. The mentorship I received helped me adjust quickly to 
+                        college life and excel in my studies."
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Story 2 -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 flex flex-col md:flex-row">
+                <div class="md:w-1/3 mb-4 md:mb-0 md:mr-6 flex justify-center">
+                    <div class="w-24 h-24 bg-gray-300 dark:bg-gray-600 rounded-full"></div>
+                </div>
+                <div class="md:w-2/3">
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Sofia Cruz</h3>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm mb-3">SHS-HEI Program 2022, Now studying BS Business Administration</p>
+                    <p class="text-gray-600 dark:text-gray-300 italic">
+                        "Participating in the SHS-HEI Program helped me discover my passion for business. The career exploration 
+                        activities and advanced courses clarified my academic path. I'm now on track to graduate a semester early 
+                        thanks to the credits I earned through the program."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="bg-blue-600 dark:bg-azure-600 text-white rounded-lg shadow-lg p-8">
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-2/3 mb-6 md:mb-0 md:pr-8">
+                <h2 class="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+                <p class="text-lg mb-6">
+                    Take the first step toward a seamless transition to college. Join the SHS-HEI Program and gain the skills, 
+                    knowledge, and confidence needed to excel in higher education.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <span>shs-hei@hccc.edu.ph</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                        <span>+63 938 491 0643 local 234</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span>Office of Academic Affairs, 2nd Floor, Main Building</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>Monday-Friday, 8:00 AM - 5:00 PM</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/3 flex justify-center items-center">
+                <a href="#" class="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium transition duration-300">
+                    Apply to SHS-HEI Program
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

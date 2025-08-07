@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    {% load static %}
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="{% static 'js/tailwind-config.js' %}"></script>
+    <!-- Bootstrap CSS for offcanvas functionality -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <style>
+        /* Dark mode styles */
+        html.dark body {
+            background-color: #1f2937;
+            color: #f3f4f6;
+        }
+        
+        html.dark .bg-white {
+            background-color: #374151 !important;
+        }
+        
+        html.dark .bg-gray-100 {
+            background-color: #1f2937 !important;
+        }
+        
+        html.dark .text-gray-900 {
+            color: #f3f4f6 !important;
+        }
+        
+        html.dark .text-gray-500 {
+            color: #d1d5db !important;
+        }
+        
+        html.dark .border-gray-200 {
+            border-color: #4b5563 !important;
+        }
+        
+        /* Offcanvas custom styles - isolated from theme changes */
+        .offcanvas {
+            max-width: 350px;
+            background-color: #ffffff !important;
+            color: #111827 !important;
+        }
+        
+        /* Ensure offcanvas elements maintain consistent appearance */
+        .offcanvas .offcanvas-header,
+        .offcanvas .offcanvas-body {
+            background-color: #ffffff !important;
+            color: #111827 !important;
+        }
+        
+        .offcanvas h5,
+        .offcanvas h6,
+        .offcanvas label {
+            color: #111827 !important;
+        }
+        
+        /* Ensure buttons in offcanvas have consistent styling */
+        .offcanvas .btn-close {
+            color: #111827 !important;
+        }
+        
+        /* Override dark mode for customization drawer */
+        html.dark .offcanvas,
+        html.dark .offcanvas .offcanvas-header,
+        html.dark .offcanvas .offcanvas-body {
+            background-color: #ffffff !important;
+            color: #111827 !important;
+        }
+        
+        html.dark .offcanvas h5,
+        html.dark .offcanvas h6,
+        html.dark .offcanvas label {
+            color: #111827 !important;
+        }
+        
+        /* Make container-fluid responsive but not full width on large screens */
+        .container-fluid {
+            width: 100%;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        @media (min-width: 1280px) {
+            .container-fluid {
+                max-width: 1280px;
+            }
+        }
+    </style>
+    {% block styles %} {% endblock %}
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <!-- Include navbar -->
+    {% include 'navbar.html' %}
+    
+    <!-- Main content -->
+    <main class="flex-grow">
+        {% block content %} 
+        
+        {% endblock content %}
+    </main>
+    
+    <!-- Include footer -->
+    {% include 'footer.html' %}
+    {% block scripts %} {% endblock scripts %}
+    
+    <script>
+        // Check for saved theme settings on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedSettings = JSON.parse(localStorage.getItem('themeSettings'));
+            if (savedSettings && savedSettings.themeMode === 'dark') {
+                document.documentElement.classList.add('dark');
+            } else if (savedSettings && savedSettings.themeMode === 'auto') {
+                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.classList.add('dark');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
